@@ -1,0 +1,96 @@
+#c1{
+  height: 700px;
+  width: 700px;
+  border: 3px solid rgb(0, 0, 0);
+  background-image: url(https://cdn1.vectorstock.com/i/1000x1000/83/85/80s-retro-sci-fi-background-with-sun-vector-21468385.jpg)
+}
+
+.transparent-text {
+  font-family: monospace;
+  font-size: 20px;
+  text-transform: uppercase;
+  background: #2e34a7;
+  display: table;
+  margin: 20px auto;
+  color: white;
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+}
+
+.transparent-text2 {
+  font-family: sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: #f4f3f800;
+  display: table;
+  margin: 20px auto;
+  color:#9370db;
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+}
+
+
+body{
+  background: #2b4c77;
+  background-image: -webkit-radial-gradient(cover, rgb(53, 14, 145),#2f175c	);
+  background-image: -moz-radial-gradient(cover, #124981, #653cb1);
+  background-image: -o-radial-gradient(cover, #578ec5, #3d66a5);
+  background-image: radial-gradient(cover, #5b21e2, #4315e9)
+}
+
+html{
+  min-height:100%;
+}
+
+.Navigation{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.Navigation li 	{
+	height: auto;
+	width: 150px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font:17px "oblique";
+	padding: 0;
+	margin: 0;
+	background-color: rgb(105, 19, 218);
+	border: 1px solid rgb(12, 9, 9);
+	box-shadow: 0 1px 0 rgba(28, 20, 95, 0.9) inset, 0 1px 3px rgba(0,0,0, .1);
+	border-radius: 33px;
+  margin-left:22px;
+}
+
+.Navigation a{							
+	padding:50px;
+	text-decoration: none; 
+	color:rgb(7, 2, 10);
+	text-shadow: 0 1px rgb(21, 16, 44);
+	display: block;
+}
+.Navigation li ul{
+	display: none;
+	height: auto;									
+	margin-left: -5px;
+	padding: 0;		
+}				
+
+.Navigation li:hover ul{
+	display: block;
+}
+
+.navbar li ul li {
+	background-color:rgb(189, 69, 69);
+  	border: 1px solid rgb(231, 12, 12);
+} 
+
+.Navigation li:hover, a:hover {
+	 background: #ec0a0a;
+} 
+
